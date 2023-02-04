@@ -10,23 +10,26 @@ touch answers.txt
 
 5. ls -a
 
-6. In orfer to use ls to list all files in a directory including the 
-hidden files, the use must input the ls -a command followed by the file 
-path of the file in which you want the contents to be listed. 
+6. In order ls to list the foles outside of your directory by typing the 
+ls command followed by the file path in which you would like to list the 
+files. For example, if I am currently in the Downloads folder and I would 
+like to list all of the files in my desktop folder, I would use the 
+command ls ~/Desktop. 
 
-7. rn is a dangereous command because the files or folders are not stored 
+7. rm is a dangereous command because the files or folders are not stored 
 in the trash bin after deleted. When rm is used, the files or directories 
 are deleted forever. One example in which an unintended outcome can be 
 warranted is if a person uses the command rm -r Desktop. This command 
 would delete the Desktop folder and  all the folders and files on the 
 persons desktop. There is no way of recovering those files so the person 
-would loose all the content.
+would loose all the content they have on their desktop. 
 
 8. mkdir results
 
 9. cd results
 touch my_script.sh
 nano my_script.sh 
+*paste the code from the assignment-1 pdf
 
 10. chmod 775 my_script.sh
 
@@ -40,7 +43,10 @@ git-hub
 the final line so tail -n 1 is the total tail -n 2 is the largest and tail 
 -n 3 is the largest two. 
 
-13. touch  anualAqi.sh
+13. nano  anualAqi.sh
+
+*the following code is what I typed into the anualAqi.sh file
+
 #!/usr/bin/env bash
 
 for annual_aqi in *.csv
@@ -50,8 +56,11 @@ do
 		
 	~/Desktop/Git-Hub/assignment-1/answers/results/my_script.sh $annual_aqi 
 
-	echo output: 
+	echo output:
 done 
+
+*I had to run the following code in order to change the permissions of the 
+files that I needed to access
 
 chmod 775 anualAqi.sh
 
