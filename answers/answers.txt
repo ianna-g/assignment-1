@@ -10,8 +10,8 @@ touch answers.txt
 
 5. ls -a
 
-6. In order ls to list the foles outside of your directory by typing the 
-ls command followed by the file path in which you would like to list the 
+6. In order to use  ls to list the files and folders outside of your 
+directory, type  the ls command followed by the file path in which you would like to list the 
 files. For example, if I am currently in the Downloads folder and I would 
 like to list all of the files in my desktop folder, I would use the 
 command ls ~/Desktop. 
