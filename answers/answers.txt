@@ -1,0 +1,75 @@
+These are my answers for the Bash section of Assignment 1
+
+1. cd Desktop/Git-Hib/assignments-1
+mkdir answers
+
+2. cd answers
+touch answers.txt
+
+4. /Users/iannag/Desktop/Git-Hub/assignment-1/answers
+
+5. ls -a
+
+6. In orfer to use ls to list all files in a directory including the 
+hidden files, the use must input the ls -a command followed by the file 
+path of the file in which you want the contents to be listed. 
+
+7. rn is a dangereous command because the files or folders are not stored 
+in the trash bin after deleted. When rm is used, the files or directories 
+are deleted forever. One example in which an unintended outcome can be 
+warranted is if a person uses the command rm -r Desktop. This command 
+would delete the Desktop folder and  all the folders and files on the 
+persons desktop. There is no way of recovering those files so the person 
+would loose all the content.
+
+8. mkdir results
+
+9. cd results
+touch my_script.sh
+nano my_script.sh 
+
+10. chmod 775 my_script.sh
+
+11. cd ~/Desktop/College/Spring2023/ENVS110/assignment-1-main-main/data
+*the data folder is in a folder I have dedicated to the class. The 
+directory which holds the answers.txt is the one that was pushed to 
+git-hub
+
+12. wc -w *.csv |sort -n | tail -n 3 | head -n 1
+* I used tail -n 3 because the way in which my code prints, the total is 
+the final line so tail -n 1 is the total tail -n 2 is the largest and tail 
+-n 3 is the largest two. 
+
+13. touch  anualAqi.sh
+#!/usr/bin/env bash
+
+for annual_aqi in *.csv
+
+do
+
+		
+	~/Desktop/Git-Hub/assignment-1/answers/results/my_script.sh $annual_aqi 
+
+	echo output: 
+done 
+
+chmod 775 anualAqi.sh
+
+for files in *.csv
+for> do
+for> chmod 775 $files
+for> done
+
+./anualAqi.sh
+
+14. mkdir  unzipped-files
+mv *.zip unzipped-files
+cd unzipped-files
+unzip '*.zip'
+
+15. rm *.zip
+
+16. 
+ cd unzipped-files
+cp annual_aqi_by_county_20??.csv ~/Desktop/Git-Hub/assignment-1/answers/results
+
